@@ -41,15 +41,15 @@ npm install
 Crie um arquivo .env e adicione:
 ```
 MONGO_URI=mongodb://localhost:27017/meuBancoDeDados
-PORT=3000
+PORT=8080
 ```
 
 4️⃣ Inicie o servidor
 ```
-node src/server.js
+node index.js
 ```
 
-O servidor estará rodando em http://localhost:3000/. 🎉
+O servidor estará rodando em http://localhost:8080/. 🎉
 
 📌 Funcionalidades
 ✅ Conectar ao MongoDB usando Mongoose
