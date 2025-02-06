@@ -14,9 +14,12 @@ Este projeto demonstra a implementação de um banco de dados **MongoDB** utiliz
 ---
 
 ## 📂 Estrutura do Projeto  
-`
-📁 meu-projeto-mongodb │── 📂 src │ ├── 📄 db.js 
-`
+```
+📁 DNC - Mongo
+│── 📂 config
+  │
+  ├── 📄 db.js 
+```
 # Conexão com MongoDB 
 `
 │ ├── 📄 model.js # Definição do modelo Mongoose │ ├── 📄 controller.js # Funções CRUD │ ├── 📄 server.js # Servidor Express │── 📄 .env # Configuração de variáveis de ambiente │── 📄 .gitignore # Arquivos ignorados pelo Git │── 📄 package.json # Dependências do projeto │── 📄 README.md # Documentação do projeto
